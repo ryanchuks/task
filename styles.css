@@ -1,0 +1,43 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.container{
+background: hsl(212, 45%, 89%); 
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.qr-code{
+ width: 400px;
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 20px;
+}
+
+.image{
+ border-radius: 10px;
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+figure{
+ height: 350px;
+}
+
+.text{
+ padding: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: small;
+ font-style: normal;
+ text-align: center;
+}
+
+p{
+ margin-top: 10px;
+ font-size: large;
+ color: hsl(220, 15%, 55%);
+}
